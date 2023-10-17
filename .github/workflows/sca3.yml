@@ -3,7 +3,7 @@ on: [push]
 jobs:
   dependency_analysis:
     runs-on:  ubuntu-latest
-    name: Test dependencies for security flaws
+    name: Test depsendencies for security flaws
     steps:
       - uses: actions/checkout@v2
       - name:
